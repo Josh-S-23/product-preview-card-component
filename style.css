@@ -6,8 +6,6 @@ body {
 .flexContainer {
     display: flex;
     flex-direction: column;
-
-
 }
 
 .sectionOne {
@@ -32,4 +30,69 @@ body {
     margin: auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+#perfume {
+    font-size: 14px;
+    color:  hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 500, 700;
+}
+
+#nameOfPerfume {
+    color: hsl(212, 21%, 14%);
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+#perfumeDescription {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    font-weight: 500, 700;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.price {
+    display: flex;
+
+}
+#salePrice {
+    font-size: 30px;
+    font-family: Fraunces;
+    color: hsl(166, 95%, 30%);
+    margin-left: 20px;
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+#fullPrice {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    font-weight: 500, 700;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+#addToCart {
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(166, 95%, 30%);
+    color:  hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.addToCartBtn {
+    text-align: center;
 }
