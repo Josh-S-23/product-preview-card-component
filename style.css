@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(30, 38%, 92%);
+    background-color: hsl(30, 38%, 92%); 
     margin: 0;
 }
 
@@ -25,7 +25,7 @@ body {
 
 .sectionTwo {
     background-color: hsl(0, 0%, 100%);
-    height: 375px;
+    height: 370px;
     width: 350px;
     margin: auto;
     border-bottom-left-radius: 10px;
@@ -34,11 +34,10 @@ body {
 
 #perfume {
     font-size: 14px;
-    color:  hsl(228, 12%, 48%);
+    color: hsl(228, 12%, 48%);
     font-family: Montserrat;
     margin-top: 20px;
     margin-left: 20px;
-    font-weight: 500, 700;
 }
 
 #nameOfPerfume {
@@ -54,29 +53,26 @@ body {
     font-size: 14px;
     color: hsl(228, 12%, 48%);
     font-family: Montserrat;
-    font-weight: 500, 700;
     margin-top: 12px;
     margin-left: 20px;
 }
 
 .price {
     display: flex;
-
 }
+
 #salePrice {
     font-size: 30px;
     font-family: Fraunces;
-    color: hsl(166, 95%, 30%);
+    color: hsl(158, 36%, 37%);
     margin-left: 20px;
     margin-top: 25px;
-    font-weight: 700;
 }
 
 #fullPrice {
     font-size: 14px;
     color: hsl(228, 12%, 48%);
     font-family: Montserrat;
-    font-weight: 500, 700;
     margin-top: 35px;
     margin-left: 20px;
 }
@@ -87,12 +83,27 @@ body {
     height: 50px;
     border-radius: 10px;
     border: none;
-    background-color: hsl(166, 95%, 30%);
-    color:  hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
     font-size: 14px;
-    font-weight: bold;
+    font-weight: bolder;
+    font-family: Montserrat;
+}
+
+#cart {
+    margin-right: 7px;
 }
 
 .addToCartBtn {
     text-align: center;
+}
+
+.attribution {
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
